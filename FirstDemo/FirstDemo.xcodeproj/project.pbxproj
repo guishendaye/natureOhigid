@@ -13,6 +13,18 @@
 		D876F42E1FBD42AF004F1735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D876F42D1FBD42AF004F1735 /* Assets.xcassets */; };
 		D876F4311FBD42AF004F1735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D876F42F1FBD42AF004F1735 /* LaunchScreen.storyboard */; };
 		D876F4341FBD42AF004F1735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D876F4331FBD42AF004F1735 /* main.m */; };
+		D8A4BA5921E877FC00C5BC82 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A4BA5821E877FC00C5BC82 /* AVFoundation.framework */; };
+		D8A4BA5B21E8783700C5BC82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A4BA5A21E8783700C5BC82 /* UIKit.framework */; };
+		D8A4BA5D21E8783F00C5BC82 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A4BA5C21E8783F00C5BC82 /* CoreMedia.framework */; };
+		D8A4BA6321E878F400C5BC82 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A4BA6021E878F400C5BC82 /* libmp3lame.a */; };
+		D8A4BA6421E878F400C5BC82 /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BA6121E878F400C5BC82 /* ExtAudioConverter.m */; };
+		D8A4BA6721E879D600C5BC82 /* LocalMusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BA6621E879D600C5BC82 /* LocalMusicListCell.m */; };
+		D8A4BA6A21E87A0D00C5BC82 /* HotMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BA6821E87A0C00C5BC82 /* HotMusicModel.m */; };
+		D8A4BA7621E87BBD00C5BC82 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BA6C21E87BBD00C5BC82 /* SVRadialGradientLayer.m */; };
+		D8A4BA7721E87BBD00C5BC82 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BA6F21E87BBD00C5BC82 /* SVProgressAnimatedView.m */; };
+		D8A4BA7821E87BBD00C5BC82 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BA7221E87BBD00C5BC82 /* SVProgressHUD.m */; };
+		D8A4BA7921E87BBD00C5BC82 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BA7321E87BBD00C5BC82 /* SVIndefiniteAnimatedView.m */; };
+		D8A4BA7A21E87BBD00C5BC82 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BA7421E87BBD00C5BC82 /* SVProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,27 @@
 		D876F4301FBD42AF004F1735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D876F4321FBD42AF004F1735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D876F4331FBD42AF004F1735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8A4BA5821E877FC00C5BC82 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8A4BA5A21E8783700C5BC82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8A4BA5C21E8783F00C5BC82 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D8A4BA5F21E878F400C5BC82 /* ExtAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioConverter.h; sourceTree = "<group>"; };
+		D8A4BA6021E878F400C5BC82 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		D8A4BA6121E878F400C5BC82 /* ExtAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtAudioConverter.m; sourceTree = "<group>"; };
+		D8A4BA6221E878F400C5BC82 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		D8A4BA6521E879D600C5BC82 /* LocalMusicListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalMusicListCell.h; sourceTree = "<group>"; };
+		D8A4BA6621E879D600C5BC82 /* LocalMusicListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalMusicListCell.m; sourceTree = "<group>"; };
+		D8A4BA6821E87A0C00C5BC82 /* HotMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotMusicModel.m; sourceTree = "<group>"; };
+		D8A4BA6921E87A0C00C5BC82 /* HotMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotMusicModel.h; sourceTree = "<group>"; };
+		D8A4BA6C21E87BBD00C5BC82 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		D8A4BA6D21E87BBD00C5BC82 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		D8A4BA6E21E87BBD00C5BC82 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		D8A4BA6F21E87BBD00C5BC82 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		D8A4BA7021E87BBD00C5BC82 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		D8A4BA7121E87BBD00C5BC82 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		D8A4BA7221E87BBD00C5BC82 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		D8A4BA7321E87BBD00C5BC82 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		D8A4BA7421E87BBD00C5BC82 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		D8A4BA7521E87BBD00C5BC82 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A4BA5D21E8783F00C5BC82 /* CoreMedia.framework in Frameworks */,
+				D8A4BA6321E878F400C5BC82 /* libmp3lame.a in Frameworks */,
+				D8A4BA5B21E8783700C5BC82 /* UIKit.framework in Frameworks */,
+				D8A4BA5921E877FC00C5BC82 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +81,7 @@
 			children = (
 				D876F4231FBD42AF004F1735 /* FirstDemo */,
 				D876F4221FBD42AF004F1735 /* Products */,
+				D8A4BA5721E877FC00C5BC82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +96,16 @@
 		D876F4231FBD42AF004F1735 /* FirstDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D8A4BA6B21E87BBD00C5BC82 /* SVProgressHUD */,
+				D8A4BA5E21E878F400C5BC82 /* Lame */,
 				D876F4241FBD42AF004F1735 /* AppDelegate.h */,
 				D876F4251FBD42AF004F1735 /* AppDelegate.m */,
 				D876F4271FBD42AF004F1735 /* ViewController.h */,
 				D876F4281FBD42AF004F1735 /* ViewController.m */,
+				D8A4BA6921E87A0C00C5BC82 /* HotMusicModel.h */,
+				D8A4BA6821E87A0C00C5BC82 /* HotMusicModel.m */,
+				D8A4BA6521E879D600C5BC82 /* LocalMusicListCell.h */,
+				D8A4BA6621E879D600C5BC82 /* LocalMusicListCell.m */,
 				D876F42A1FBD42AF004F1735 /* Main.storyboard */,
 				D876F42D1FBD42AF004F1735 /* Assets.xcassets */,
 				D876F42F1FBD42AF004F1735 /* LaunchScreen.storyboard */,
@@ -69,6 +113,44 @@
 				D876F4331FBD42AF004F1735 /* main.m */,
 			);
 			path = FirstDemo;
+			sourceTree = "<group>";
+		};
+		D8A4BA5721E877FC00C5BC82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4BA5C21E8783F00C5BC82 /* CoreMedia.framework */,
+				D8A4BA5A21E8783700C5BC82 /* UIKit.framework */,
+				D8A4BA5821E877FC00C5BC82 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A4BA5E21E878F400C5BC82 /* Lame */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4BA5F21E878F400C5BC82 /* ExtAudioConverter.h */,
+				D8A4BA6021E878F400C5BC82 /* libmp3lame.a */,
+				D8A4BA6121E878F400C5BC82 /* ExtAudioConverter.m */,
+				D8A4BA6221E878F400C5BC82 /* lame.h */,
+			);
+			path = Lame;
+			sourceTree = "<group>";
+		};
+		D8A4BA6B21E87BBD00C5BC82 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4BA6C21E87BBD00C5BC82 /* SVRadialGradientLayer.m */,
+				D8A4BA6D21E87BBD00C5BC82 /* SVIndefiniteAnimatedView.h */,
+				D8A4BA6E21E87BBD00C5BC82 /* SVProgressHUD.h */,
+				D8A4BA6F21E87BBD00C5BC82 /* SVProgressAnimatedView.m */,
+				D8A4BA7021E87BBD00C5BC82 /* SVProgressHUD-Prefix.pch */,
+				D8A4BA7121E87BBD00C5BC82 /* SVRadialGradientLayer.h */,
+				D8A4BA7221E87BBD00C5BC82 /* SVProgressHUD.m */,
+				D8A4BA7321E87BBD00C5BC82 /* SVIndefiniteAnimatedView.m */,
+				D8A4BA7421E87BBD00C5BC82 /* SVProgressHUD.bundle */,
+				D8A4BA7521E87BBD00C5BC82 /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +214,7 @@
 				D876F4311FBD42AF004F1735 /* LaunchScreen.storyboard in Resources */,
 				D876F42E1FBD42AF004F1735 /* Assets.xcassets in Resources */,
 				D876F42C1FBD42AF004F1735 /* Main.storyboard in Resources */,
+				D8A4BA7A21E87BBD00C5BC82 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A4BA7621E87BBD00C5BC82 /* SVRadialGradientLayer.m in Sources */,
 				D876F4291FBD42AF004F1735 /* ViewController.m in Sources */,
+				D8A4BA6A21E87A0D00C5BC82 /* HotMusicModel.m in Sources */,
+				D8A4BA6421E878F400C5BC82 /* ExtAudioConverter.m in Sources */,
 				D876F4341FBD42AF004F1735 /* main.m in Sources */,
+				D8A4BA7921E87BBD00C5BC82 /* SVIndefiniteAnimatedView.m in Sources */,
+				D8A4BA7821E87BBD00C5BC82 /* SVProgressHUD.m in Sources */,
 				D876F4261FBD42AF004F1735 /* AppDelegate.m in Sources */,
+				D8A4BA6721E879D600C5BC82 /* LocalMusicListCell.m in Sources */,
+				D8A4BA7721E87BBD00C5BC82 /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +370,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L79AP9W7HQ;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FirstDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirstDemo/Lame",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.FirstDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,8 +389,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L79AP9W7HQ;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FirstDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirstDemo/Lame",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.FirstDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
